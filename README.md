@@ -38,9 +38,9 @@ Estudante de **Engenharia de Computação** com formação prévia em **Processo
 ## 🌐 Conecte-se Comigo
 
 *   **Portfólio Pessoal:** [portfolio-laura-mazzi.vercel.app](https://portfolio-laura-mazzi.vercel.app/)
-*   **LinkedIn:** [linkedin.com/in/mazzi-90b8a4210](https://linkedin.com/in/mazzi-90b8a4210)
+*   **LinkedIn:** [linkedin.com/in/laura-mazzi-90b8a4210](https://linkedin.com/in/laura-mazzi-90b8a4210)
 *   **E-mail:** [lbmazzi98@gmail.com](mailto:lbmazzi98@gmail.com)
 *   **WhatsApp:** [+55 (16) 99156-9419](https://wa.me/5516991569419)
 
 ---
-*Foco em criar códigos funcionais que resolvem problemas reais de negócios.*
+*Foco em criar códigos funcionais que resolvem problemas reais.*
