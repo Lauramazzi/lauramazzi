@@ -21,8 +21,8 @@ Sistema em produção para um estúdio de cílios, com um **agente de IA (Gemini
 
 | Projeto | Problema resolvido | Stack | Acesso |
 |---|---|---|---|
-| **Rotas Petiko** | Roteirização de coletas e motoristas integrada ao WhatsApp e Google Sheets | JavaScript, Google Apps Script | 🔒 Código privado (cliente) |
-| **Painel de Estoque Omie** | Visão do estoque por depósito físico direto da API do ERP Omie, com leitura de CSV | JavaScript, API REST Omie | 🔒 Código privado (cliente) |
+| [**Rotas — Oficinas e Costureiras**](https://github.com/Lauramazzi/rotas-demo) | Roteirização de coletas e motoristas integrada ao WhatsApp e Google Sheets | JavaScript, Google Apps Script | [🌐 Demo](https://lauramazzi.github.io/rotas-demo/) |
+| [**Painel de Estoque Omie**](https://github.com/Lauramazzi/painel-estoque-demo) | Visão do estoque por depósito físico direto da API do ERP Omie, com leitura de CSV | JavaScript, API REST Omie | [🌐 Demo](https://lauramazzi.github.io/painel-estoque-demo/) |
 | [**Abastecimento de Linhas**](https://github.com/Lauramazzi/abastecimento-linhas) | Controle de pallets e abastecimento das linhas de produção pelo celular | HTML/JS, Google Sheets | [🌐 Demo](https://lauramazzi.github.io/abastecimento-linhas/) |
 | [**Controle de Veículo**](https://github.com/Lauramazzi/controle-veiculo) | Registro de uso e manutenção de veículo | HTML/JS | [🌐 Demo](https://lauramazzi.github.io/controle-veiculo/controle_veiculo_1.html) |
 
