@@ -15,6 +15,12 @@ Sistema em produção para um estúdio de cílios, com um **agente de IA (Gemini
 - Agendamento autônomo, anamnese digital e painel administrativo com **Firebase** e regras de segurança no Firestore
 - [Plano de evolução para SaaS multi-tenant](https://github.com/Lauramazzi/lash-agendamento-anamnese/blob/main/saas_transformation_report.md)
 
+### 📡 [Radar de Avaliações — triagem de avaliações com IA](https://github.com/Lauramazzi/radar-avaliacoes) · [🌐 Dashboard](https://lauramazzi.github.io/radar-avaliacoes/)
+Automação no **Make** que classifica avaliações de delivery com **IA (Gemini)** e destaca os casos que exigem ação imediata, como alimento estragado ou alergênico servido a quem avisou ter alergia.
+- Webhook → Make → Gemini com **saída em JSON Schema** (sentimento, categoria, gravidade, resumo e resposta sugerida) → data store → dashboard
+- Regras de gravidade escritas no prompt e **resultado revisado** nas 30 avaliações de teste, com o erro encontrado documentado
+- Fluxo montado com a API do Claude e migrado para o Gemini trocando só o módulo da chamada
+
 ---
 
 ## ⚙️ Automações e ferramentas internas
@@ -42,7 +48,8 @@ Sistema em produção para um estúdio de cílios, com um **agente de IA (Gemini
 
 ## 🛠️ Tecnologias
 
-- **IA:** Gemini API (Vision), engenharia de prompt, agentes de IA
+- **IA:** Gemini API (Vision e saída estruturada), engenharia de prompt, agentes de IA
+- **Automação:** Make (webhooks, data stores, cenários)
 - **Linguagens:** JavaScript (ES6+), Python, Java, C#, PHP (Laravel)
 - **Dados:** Streamlit, Pandas, Power BI, Google Sheets / Apps Script
 - **Backend e nuvem:** Firebase (Firestore, Auth, Cloud Functions), Netlify Functions, APIs REST
