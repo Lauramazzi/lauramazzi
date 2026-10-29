@@ -1,46 +1,53 @@
 # Olá, eu sou a Laura Mazzi! 👋
 
-Estudante de **Engenharia de Computação** com formação prévia em **Processos Gerenciais**. Minha atuação é híbrida: utilizo sólida base técnica e lógica de programação combinada com uma visão analítica de negócios para otimizar fluxos operacionais, desenhar integrações de sistemas e especificar soluções inteligentes com IA.
+Estudante de **Engenharia de Computação** com formação prévia em **Processos Gerenciais**. Construo soluções com IA de ponta a ponta para negócios reais: entendo o processo, desenho o fluxo, integro os sistemas e coloco no ar.
+
+📍 São Carlos/SP · 🌐 [Portfólio e currículo](https://portfolio-laura-mazzi.vercel.app/) · 💼 [LinkedIn](https://linkedin.com/in/laura-mazzi-90b8a4210) · ✉️ [lbmazzi98@gmail.com](mailto:lbmazzi98@gmail.com)
 
 ---
 
-## 💼 Atuação & Foco Profissional
+## 🤖 IA aplicada
 
-*   **Engenharia de Requisitos de IA:** Modelagem de jornadas e especificação de fluxos dinâmicos para a integração segura de LLMs e modelos inteligentes.
-*   **Otimização de Processos (PDCA & ERP):** Experiência prática na liderança de equipes e melhoria contínua de processos operacionais e financeiros.
-*   **Integrações de Sistemas:** Desenvolvimento e consumo de APIs REST e conexões de banco de dados em tempo real.
-
----
-
-## 🛠️ Tecnologias e Ferramentas
-
-*   **Linguagens de Programação:** Java, C#, PHP (Laravel), Python, JavaScript (ES6+).
-*   **Banco de Dados & Nuvem:** Firebase (Firestore, Auth), Firebase Cloud Functions.
-*   **Dados & Gestão:** Microsoft Power BI, ERP Omie, Ciclo PDCA, Metodologias Ágeis.
-*   **DevOps & Deploy:** Git/GitHub, Netlify, Vercel.
+### 👁️ [Lash Studio — Agente de IA + Agendamento](https://github.com/Lauramazzi/lash-agendamento-anamnese) · [🌐 Testar online](https://lash-studio-agendamento.netlify.app/)
+Sistema em produção para um estúdio de cílios, com um **agente de IA (Gemini Vision)** que analisa a foto dos olhos da cliente, ranqueia os formatos de extensão mais indicados e mostra uma simulação visual antes do atendimento.
+- Agente com arquitetura **BDI** (crenças → desejos → intenções) e base de conhecimento de formatos
+- Chamadas ao Gemini por **função serverless** (Netlify Functions), sem expor a chave de API
+- Agendamento autônomo, anamnese digital e painel administrativo com **Firebase** e regras de segurança no Firestore
+- [Plano de evolução para SaaS multi-tenant](https://github.com/Lauramazzi/lash-agendamento-anamnese/blob/main/saas_transformation_report.md)
 
 ---
 
-## 🚀 Projetos em Destaque
+## ⚙️ Automações e ferramentas internas
 
-### 📅 [Lash Agendamento & Anamnese](https://github.com/Lauramazzi/lash-agendamento-anamnese)
-> Sistema completo de agendamento autônomo online e triagem de saúde (anamnese digital) para estúdios de cílios. Desenvolvido em JS Vanilla e Firebase, com regras robustas de segurança no Firestore para blindar dados financeiros.
-> 🌐 [Testar Sistema Online](https://lash-studio-agendamento.netlify.app/)
+| Projeto | Problema resolvido | Stack | Acesso |
+|---|---|---|---|
+| **Rotas Petiko** | Roteirização de coletas e motoristas integrada ao WhatsApp e Google Sheets | JavaScript, Google Apps Script | 🔒 Código privado (cliente) |
+| **Painel de Estoque Omie** | Visão do estoque por depósito físico direto da API do ERP Omie, com leitura de CSV | JavaScript, API REST Omie | 🔒 Código privado (cliente) |
+| [**Abastecimento de Linhas**](https://github.com/Lauramazzi/abastecimento-linhas) | Controle de pallets e abastecimento das linhas de produção pelo celular | HTML/JS, Google Sheets | [🌐 Demo](https://lauramazzi.github.io/abastecimento-linhas/) |
+| [**Controle de Veículo**](https://github.com/Lauramazzi/controle-veiculo) | Registro de uso e manutenção de veículo | HTML/JS | [🌐 Demo](https://lauramazzi.github.io/controle-veiculo/controle_veiculo_1.html) |
 
-### 📊 [Painel de Estoque Omie](https://github.com/Lauramazzi/painel-estoque-omie)
-> Dashboard de análise de estoque integrado com a API do ERP Omie. Processamento de dados, mapeamento de depósitos físicos e leitura inteligente de arquivos CSV.
+## 📊 Dashboards e gestão
 
-### 🚚 [Rotas Petiko](https://github.com/Lauramazzi/rotas-petiko)
-> Roteirizador inteligente integrado ao WhatsApp e Google Sheets. Automação completa do fluxo operacional logístico de motoristas e coletas.
+| Projeto | Problema resolvido | Stack | Acesso |
+|---|---|---|---|
+| [**Barbearia — Dashboard financeiro**](https://github.com/Lauramazzi/barbearia) | Consolida relatórios do AppBarber com despesas, parcelas, caixa e metas mensais | Python, Streamlit, Pandas | Código |
+| [**Heloísa Mazzi — App financeiro (PWA)**](https://github.com/Lauramazzi/heloisa-mazzi) | Registro de saídas, vencimentos, reserva e fechamento do mês pelo celular | JavaScript, PWA | [🌐 App](https://heloisa-mazzi.vercel.app) |
+| [**Controle Financeiro**](https://github.com/Lauramazzi/controle-financeiro) | Controle financeiro pessoal | Python, Streamlit | Código |
+
+## 🌐 Sites e páginas de venda
+
+[Mazzi Serviços](https://lauramazzi.github.io/mazzi-servicos/) · [RK Refrigeração](https://lauramazzi.github.io/rk-refrigeracao-site/) · [Marmitas da Semana](https://lauramazzi.github.io/Marmita-ebook/)
 
 ---
 
-## 🌐 Conecte-se Comigo
+## 🛠️ Tecnologias
 
-*   **Portfólio Pessoal:** [portfolio-laura-mazzi.vercel.app](https://portfolio-laura-mazzi.vercel.app/)
-*   **LinkedIn:** [linkedin.com/in/laura-mazzi-90b8a4210](https://linkedin.com/in/laura-mazzi-90b8a4210)
-*   **E-mail:** [lbmazzi98@gmail.com](mailto:lbmazzi98@gmail.com)
-*   **WhatsApp:** [+55 (16) 99156-9419](https://wa.me/5516991569419)
+- **IA:** Gemini API (Vision), engenharia de prompt, agentes de IA
+- **Linguagens:** JavaScript (ES6+), Python, Java, C#, PHP (Laravel)
+- **Dados:** Streamlit, Pandas, Power BI, Google Sheets / Apps Script
+- **Backend e nuvem:** Firebase (Firestore, Auth, Cloud Functions), Netlify Functions, APIs REST
+- **Negócio:** ERP Omie, PDCA, melhoria contínua de processos, metodologias ágeis
+- **Deploy:** Git/GitHub, GitHub Pages, Netlify, Vercel
 
 ---
 *Foco em criar códigos funcionais que resolvem problemas reais.*
